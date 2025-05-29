@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "shifts-processor-app",
+  "packageName": "com.company.shiftsprocessor",
+  "developer": {
+    "name": "Your Company",
+    "websiteUrl": "https://yourcompany.com",
+    "privacyUrl": "https://yourcompany.com/privacy",
+    "termsOfUseUrl": "https://yourcompany.com/terms"
+  },
+  "name": {
+    "short": "Shifts Processor",
+    "full": "Teams Shifts Data Processor"
+  },
+  "description": {
+    "short": "Process and analyze Teams Shifts export data",
+    "full": "Automatically process Microsoft Teams Shifts export files to create pivot tables, track project hours, and generate reports - all within Teams!"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#5b5fc7",
+  "staticTabs": [
+    {
+      "entityId": "shifts-processor",
+      "name": "Shifts Processor",
+      "contentUrl": "https://yourdomain.com/index.html",
+      "websiteUrl": "https://yourdomain.com/index.html",
+      "scopes": ["personal", "team"]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "yourdomain.com",
+    "cdnjs.cloudflare.com",
+    "cdn.plot.ly"
+  ],
+  "webApplicationInfo": {
+    "id": "your-app-id",
+    "resource": "api://yourdomain.com/your-app-id"
+  }
+}
