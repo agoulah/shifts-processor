@@ -2,13 +2,13 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
   "manifestVersion": "1.16",
   "version": "1.0.0",
-  "id": "shifts-processor-app",
-  "packageName": "com.company.shiftsprocessor",
+  "id": "89000085-0966-4426-8f52-5b91d9854199",
+  "packageName": "com.agoulah.shiftsprocessor",
   "developer": {
-    "name": "Your Company",
-    "websiteUrl": "https://yourcompany.com",
-    "privacyUrl": "https://yourcompany.com/privacy",
-    "termsOfUseUrl": "https://yourcompany.com/terms"
+    "name": "Your Name or Company",
+    "websiteUrl": "https://agoulah.github.io/shifts-processor/",
+    "privacyUrl": "https://agoulah.github.io/shifts-processor/privacy.html",
+    "termsOfUseUrl": "https://agoulah.github.io/shifts-processor/terms.html"
   },
   "name": {
     "short": "Shifts Processor",
@@ -27,22 +27,17 @@
     {
       "entityId": "shifts-processor",
       "name": "Shifts Processor",
-      "contentUrl": "https://yourdomain.com/index.html",
-      "websiteUrl": "https://yourdomain.com/index.html",
+      "contentUrl": "https://agoulah.github.io/shifts-processor/",
+      "websiteUrl": "https://agoulah.github.io/shifts-processor/",
       "scopes": ["personal", "team"]
     }
   ],
   "permissions": [
-    "identity",
-    "messageTeamMembers"
+    "identity"
   ],
   "validDomains": [
-    "yourdomain.com",
+    "agoulah.github.io",
     "cdnjs.cloudflare.com",
     "cdn.plot.ly"
-  ],
-  "webApplicationInfo": {
-    "id": "your-app-id",
-    "resource": "api://yourdomain.com/your-app-id"
-  }
+  ]
 }
